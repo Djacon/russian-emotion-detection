@@ -1,0 +1,50 @@
+{
+  "_name_or_path": "cointegrated/rubert-tiny2",
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "emb_size": 312,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 312,
+  "id2label": {
+    "0": "\u0440\u0430\u0434\u043e\u0441\u0442\u044c",
+    "1": "\u0438\u043d\u0442\u0435\u0440\u0435\u0441",
+    "2": "\u0443\u0434\u0438\u0432\u043b\u0435\u043d\u0438\u0435",
+    "3": "\u043f\u0435\u0447\u0430\u043b\u044c",
+    "4": "\u0433\u043d\u0435\u0432",
+    "5": "\u043e\u0442\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+    "6": "\u0441\u0442\u0440\u0430\u0445",
+    "7": "\u0432\u0438\u043d\u0430",
+    "8": "\u043d\u0435\u0439\u0442\u0440\u0430\u043b\u044c\u043d\u043e"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 600,
+  "label2id": {
+    "\u0432\u0438\u043d\u0430": 7,
+    "\u0433\u043d\u0435\u0432": 4,
+    "\u0438\u043d\u0442\u0435\u0440\u0435\u0441": 1,
+    "\u043d\u0435\u0439\u0442\u0440\u0430\u043b\u044c\u043d\u043e": 8,
+    "\u043e\u0442\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u0435": 5,
+    "\u043f\u0435\u0447\u0430\u043b\u044c": 3,
+    "\u0440\u0430\u0434\u043e\u0441\u0442\u044c": 0,
+    "\u0441\u0442\u0440\u0430\u0445": 6,
+    "\u0443\u0434\u0438\u0432\u043b\u0435\u043d\u0438\u0435": 2
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 2048,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 3,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "multi_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.27.4",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 83828
+}
