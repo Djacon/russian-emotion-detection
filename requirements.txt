@@ -1,5 +1,4 @@
 fastapi
-fastapi-socketio
-torch
-transformers
 uvicorn
+torch==2.0.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+transformers
