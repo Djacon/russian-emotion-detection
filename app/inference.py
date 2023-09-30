@@ -22,7 +22,7 @@ def predict_emotions(text):
 
     emotions_list = {}
     for i in range(len(pred[0].tolist())):
-        emotions_list[LABELS[i]] = pred[0].tolist()[i]
+        emotions_list[LABELS[i]] = round(100 * pred[0].tolist()[i], 3)
     return emotions_list
 
 
