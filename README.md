@@ -4,6 +4,12 @@
 
 The __rubert-tiny2-russian-emotion-detection__ is a fine-tuned [rubert-tiny2](https://huggingface.co/cointegrated/rubert-tiny2) model for multi-label __emotion classification__ task, specifically on Russian texts. Trained on custom [ru-izard-emotions](https://huggingface.co/datasets/Djacon/ru-izard-emotions) dataset, so this model can recognize a spectrum of 9 emotions, including __joy__, __sadness__, __anger__, __enthusiasm__, __surprise__, __disgust__, __fear__, __guilt__, __shame__ + __neutral__ (no emotion). Project was inspired by the [Izard's model](https://en.wikipedia.org/wiki/Differential_Emotions_Scale) of human emotions.
 
+Give it a try right here:\
+🔗 [Russian Emotion Detection Web App](https://djacon-emotion-detection.hf.space/emotion_detection)
+
+Or check out HuggingFace:\
+🔗 [Djacon/rubert-tiny2-russian-emotion-detection](https://huggingface.co/Djacon/rubert-tiny2-russian-emotion-detection)
+
 ## Training Parameters:
 ```yaml
 Optimizer: AdamW
